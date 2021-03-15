@@ -17,7 +17,7 @@ class ulamki
 ulamki::ulamki() 
 {
 	plik.open("dane_ulamki.txt");
-	plik1.open("wynik.txt");
+	plik1.open("wynik1.txt");
 }
 
 void ulamki::wczytaj() 

@@ -32,23 +32,24 @@ void ulamki::wczytaj()
 		min = licz/mian;
 		min_licz = licz;
 		min_mian = mian;
+		
 		while(!plik.eof()) 
 		{
 			
-			plik>>mian;	
-			plik>>licz;
-			if(licz/mian<min) 
+		plik>>mian;	
+		plik>>licz;
+		if(licz/mian<min) 
 			{
-				min = licz/mian;
-				min_licz = licz;
-				min_mian= mian;
+			min = licz/mian;
+			min_licz = licz;
+			min_mian= mian;
 			}
 			if(licz/mian==min) 
 			{
 				if(mian<=min_mian) 
 				{
-					min_licz = licz;
-					min_mian = mian;
+				min_licz = licz;
+				min_mian = mian;
 				}
 			}
 		}

@@ -52,8 +52,8 @@ void ulamki::wczytaj()
 				}
 			}
 		}
-		cout<<"Zadanie"<<min_licz<<" "<<min_mian;
-		plik1<<"Zadanie"<<min_licz<<" "<<min_mian;
+		cout<<"Zad 65.1"<<min_licz<<" "<<min_mian;
+		plik1<<"Zad 65.1"<<min_licz<<" "<<min_mian;
 	}
 }
 	
